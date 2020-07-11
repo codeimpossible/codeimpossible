@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+- :metal: I'm Jared Barboza
+- 🌱 I’m currently working on a [video game called "Electric Noir"](http://electricnoirgame.com)
+- 💬 I'm on [Twitter](http://twitter.com/codeimpossible)
+- 📫 I write occaisionally at [http://jaredbarboza.me](http://jaredbarboza.me)
+- 😄 Pronouns: they/them
+
 <!--
 **codeimpossible/codeimpossible** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
