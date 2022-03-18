@@ -8,19 +8,33 @@
   <a href="https://twitter.com/codeimpossible" target="blank"><img src="https://img.shields.io/badge/Follow-@codeimpossible-FF0069?style=flat&labelColor=333333&logoColor=E7E7E7&logo=twitter" /></a>
 </p>
 
-```rust
-fn main() {
-    let me = MeatBag {
-        name: String::from("Jared"),
-        username: String::from("codeimpossible"),
-        pronouns: String::from("they/them"),
-        location: String::from("Boston, MA"),
-        blog: String::from("http://jaredbarboza.me"),
-        hobbies: ["Coding", "Gaming", "Film"],
-        interests: ["Programming", "Game Development", "Open Source"], // working on a game called Electric Noir
-        active: true
-    };
-}
+```ruby
+class Meatbag
+  def initialize()
+    h = yield(self) if block_given?
+	  h.each do |key, value|
+	    instance_eval { class << self; self end }.send(:attr_accessor, key)
+      self.instance_variable_set("@#{key}".to_sym, value)
+	  end
+  end
+end
+
+def main
+  @me = Meatbag.new do |m|
+    {
+      :name => "Jared",
+      :username => "codeimpossible",
+      :pronouns => "they/them",
+      :location => "Boston, MA",
+      :blog => "http://jaredbarboza.me",
+      :hobbies => [:coding, :gaming, :film],
+      
+      # working on a game called Electric Noir
+      :interests => [:programming, :gamedevelopment, :opensource],
+      :is_active => true
+    }
+  end
+end
 ```
 
 Languages 💾
