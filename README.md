@@ -4,7 +4,7 @@
 <p align="center">
   <a href="https://badges.pufler.dev"><img src="https://badges.pufler.dev/years/codeimpossible?style=flat&labelColor=333333&logoColor=E7E7E7&color=0089FF&label=Years&logo=github" /></a>
   <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcodeimpossible&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false" /></a>
-  <img src="https://img.shields.io/stackexchange/stackoverflow/r/1980?label=reputation&logo=stackoverflow&logoColor=fff" />
+  <img src="https://img.shields.io/stackexchange/stackoverflow/r/1980?label=reputation&logo=stackoverflow&logoColor=white" />
   <a href="https://twitter.com/codeimpossible" target="blank"><img src="https://img.shields.io/badge/Follow-@codeimpossible-FF0069?style=flat&labelColor=333333&logoColor=E7E7E7&logo=twitter" /></a>
 </p>
 
