@@ -32,7 +32,7 @@ def main
       :username => "codeimpossible",
       :pronouns => "they/them",
       :location => "Boston, MA",
-      :blog => "http://jaredbarboza.me",
+      :blog => "http://barboza.io",
       :hobbies => [:coding, :gaming, :film],
       
       # working on a game called Electric Noir
